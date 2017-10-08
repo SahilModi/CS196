@@ -32,29 +32,12 @@
 #              [3, 6, 9]]
 #
 
-A = [[1, 2, 3],
-     [4, 5, 6],
-     [7, 8, 9]]
-
-A = [[1]]
-
-A = [[1, 2],
-     [3, 4],
-     [5, 6],
-     [7, 8]]
-
-
 def matrix_transpose(A):
     a2 = [[0 for x in range(len(A))] for y in range(len(A[0]))]
     for i in range(len(A)):
         for j in range(len(A[i])):
             a2[j][i] = A[i][j]
-
-    #print(a2)
     return a2
-
-
-matrix_transpose(A)
 
 
 # Max Element in 2-D Array
@@ -153,10 +136,11 @@ def binary_search(arr, target):
 def search_2d_array(arr, target):
     for i in range(len(arr)):
         for j in range(len(arr[i])):
-            if(arr[i][j] == target):
+            if (arr[i][j] == target):
                 list = [i, j]
                 return list
     return None
+
 
 # Maximum Sum Subarray
 # 
@@ -181,7 +165,7 @@ def max_sum_subarray(arr):
     result = arr[0]
     temp = 0
     for i in range(len(arr)):
-        for j in range(i, len(arr)): #subarray
+        for j in range(i, len(arr)):  # subarray
             temp += arr[j]
             if temp > result:
                 result = temp
@@ -219,7 +203,14 @@ def max_sum_subarray(arr):
 #             4
 # 
 def max_sum_subrectangle(grid):
-    pass
+    result = grid[0][0] + grid[0][1]
+    for r in range(len(grid) - 1):
+        for c in range(len(grid[0]) - 1):
+            if grid[r][c] + grid[r][c + 1] > result: result = grid[r][c] + grid[r][c + 1]
+            if grid[r][c] + grid[r + 1][c] > result: result = grid[r][c] + grid[r - 1][c]
+            if grid[r][c] + grid[r][c + 1] + grid[r + 1][c + 1] + grid[r + 1][c] > result:
+                result = grid[r][c] + grid[r][c + 1] + grid[r + 1][c + 1] + grid[r + 1][c]
+    return result
 
 
 # Maximum Number of Times an Array can be Flattened
@@ -244,4 +235,9 @@ def max_sum_subrectangle(grid):
 #             0
 # 
 def max_array_flatten(arr):
-    pass
+    result = 0
+    for r in range(len(arr)):
+        if isinstance(arr[r], list):
+            result += 1
+
+    return result
