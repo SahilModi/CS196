@@ -1,0 +1,37 @@
+# https://github.com/CS196Illinois/CS196_SP17_Lecture_Notes/blob/master/5.0_Classes_and_OOP.ipynb
+class Coffee:
+    cups = 0  # class variable. This belongs to the class
+
+    # __init__ is (basically) a constructor.
+    def __init__(self, name, beans):
+        self.name = name  # These are instance variables. these belong to the object
+        self.beans = beans
+        type(self).cups += 1
+
+        # Instance method
+
+    def drink(self):
+        print("I am drinking a %s made with %s beans" % (self.name, self.beans))
+
+    @classmethod  # use decorator @staticmethod to create static methods
+    def number_of_cups(cls):
+        return cls.cups
+
+
+# Creating a subclasss -
+class Starbucks_Coffee(Coffee):
+    def __init__(self, name, beans, cost):
+        Coffee.__init__(self, name, beans)
+        self.cost = cost
+
+    def buy_coffee(self):
+        print("Your coffee costs $%s" % self.cost)
+
+my_coffee = Coffee("Latte", "Ethiopia")
+my_coffee.drink()
+my_coffee.number_of_cups()
+
+not_my_coffee = Starbucks_Coffee("Caramel Macchiato", "Ethiopia", 5.0)
+not_my_coffee.drink()
+not_my_coffee.buy_coffee()
+not_my_coffee.number_of_cups()
