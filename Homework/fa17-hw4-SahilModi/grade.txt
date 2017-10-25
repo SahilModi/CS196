@@ -1,0 +1,31 @@
+GRADE REPORT for repo fa17-hw4-SahilModi
+
+Total points earned: 21
+
+Detailed test results:
+tester_alphabet_finder/_given: Correct
+tester_alphabet_finder/long: Correct
+tester_alphabet_finder/more: Failed
+tester_anagram_of_palindrome/_given: Correct
+tester_anagram_of_palindrome/long: Failed
+tester_anagram_of_palindrome/more: Correct
+tester_anagram_of_palindrome/vacuous: Failed
+tester_count_anagrams/_given: Correct
+tester_count_anagrams/long_elements: Correct
+tester_count_anagrams/long_uniq: Correct
+tester_count_anagrams/more: Correct
+tester_count_anagrams/vacuous: Correct
+tester_happy_number/_given: Correct
+tester_happy_number/iftrs: Failed
+tester_happy_number/incluse: Correct
+tester_happy_number/more_1: Correct
+tester_happy_number/more_large: Failed
+tester_is_unique/_given: Correct
+tester_is_unique/longer: Correct
+tester_is_unique/more: Correct
+tester_is_unique/vacuous: Correct
+tester_reverse_dictionary/_given: Correct
+tester_reverse_dictionary/long: Correct
+tester_reverse_dictionary/more: Correct
+tester_reverse_dictionary/nested_objects: Correct
+tester_reverse_dictionary/self_loop: Correct
