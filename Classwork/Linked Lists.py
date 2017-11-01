@@ -12,8 +12,8 @@ class Node(object):
         """
         node = self
         buffer = str(node.data)
-
         node = node.next
+
         while node != None:
             buffer += ' -> ' + str(node.data)
             node = node.next
@@ -48,14 +48,16 @@ print(linked_list)
 # list:norm, the list to be turned into a linked list
 def list_to_linked_list(norm):
     first = Node(norm[0])
-    a = first
+    current = first
 
     for i in range(1, len(norm)):
-        b = Node(norm[i])
-        a.next = b
-        a = b
+        new_node = Node(norm[i])
+        current.next = new_node
+        current = new_node  # same as current = current.next
+        # first.next = new_node !! can't do this because then only last data elem is returned
 
     return first
 
 
+print("-----------------------------------")
 print(list_to_linked_list([3, 4, 0, 5]))
