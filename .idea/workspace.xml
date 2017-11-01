@@ -14,18 +14,18 @@
       <file leaf-file-name="Linked Lists.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Classwork/Linked Lists.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1304">
+            <state relative-caret-position="0">
               <caret line="56" column="19" lean-forward="false" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hw5.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="hw5.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Git_Upload/fa17-hw5-SahilModi/hw5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1375">
-              <caret line="177" column="19" lean-forward="false" selection-start-line="177" selection-start-column="19" selection-end-line="177" selection-end-column="33" />
+            <state relative-caret-position="720">
+              <caret line="263" column="34" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="263" selection-end-column="34" />
               <folding>
                 <element signature="e#176#563#0" expanded="false" />
                 <element signature="e#621#1163#0" expanded="false" />
@@ -40,15 +40,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Stacks and Queues.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Stacks and Queues.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Classwork/Stacks and Queues.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="112" column="0" lean-forward="true" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+            <state relative-caret-position="720">
+              <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
               <folding>
+                <element signature="e#24#487#0" expanded="false" />
+                <element signature="e#533#1419#0" expanded="false" />
                 <element signature="e#1466#2314#0" expanded="false" />
-                <marker date="1509496410310" expanded="false" signature="19:484" ph="..." />
-                <marker date="1509496410310" expanded="false" signature="528:1416" ph="..." />
               </folding>
             </state>
           </provider>
@@ -57,8 +57,8 @@
       <file leaf-file-name="hw5_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Git_Upload/fa17-hw5-SahilModi/hw5_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1250">
-              <caret line="50" column="12" lean-forward="true" selection-start-line="50" selection-start-column="12" selection-end-line="51" selection-end-column="0" />
+            <state relative-caret-position="820">
+              <caret line="50" column="12" lean-forward="false" selection-start-line="50" selection-start-column="12" selection-end-line="51" selection-end-column="0" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -89,11 +89,12 @@
         <option value="$PROJECT_DIR$/Git_Upload/fa17-hw4-SahilModi/hw4.py" />
         <option value="$PROJECT_DIR$/Classwork/Linked Lists.py" />
         <option value="$PROJECT_DIR$/Git_Upload/fa17-hw5-SahilModi/hw5_test.py" />
-        <option value="$PROJECT_DIR$/Git_Upload/fa17-hw5-SahilModi/hw5.py" />
         <option value="$PROJECT_DIR$/Classwork/Node.py" />
         <option value="$PROJECT_DIR$/Classwork/Queues.py" />
         <option value="$PROJECT_DIR$/Classwork/Stacks.py" />
         <option value="$PROJECT_DIR$/Classwork/Stacks and Queues.py" />
+        <option value="$PROJECT_DIR$/Git_Upload/fa17-hw5-SahilModi/hw5.py" />
+        <option value="$PROJECT_DIR$/Homework/fa17-hw5-SahilModi/hw5.py" />
       </list>
     </option>
   </component>
@@ -119,6 +120,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -142,12 +145,21 @@
               <item name="Git_Upload" type="462c0819:PsiDirectoryNode" />
               <item name="fa17-hw5-SahilModi" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CS196" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS196" type="462c0819:PsiDirectoryNode" />
+              <item name="Homework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CS196" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS196" type="462c0819:PsiDirectoryNode" />
+              <item name="Homework" type="462c0819:PsiDirectoryNode" />
+              <item name="fa17-hw5-SahilModi" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -166,7 +178,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Stacks">
+  <component name="RunManager" selected="Python.hw5">
     <configuration name="Linked Lists" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -255,9 +267,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Stacks" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in hw5_test.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python.hw5" />
+        <item index="0" class="java.lang.String" itemvalue="Python.hw5" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Stacks" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in hw5_test.py" />
         <item index="3" class="java.lang.String" itemvalue="Python.Linked Lists" />
         <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in hw4_test.py" />
       </list>
@@ -310,13 +322,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1102" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25665602" sideWeight="0.44635418" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25665602" sideWeight="0.55364585" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25665602" sideWeight="0.55364585" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -349,16 +362,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Git_Upload/fa17-hw5-SahilModi/hw5_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="35" column="48" lean-forward="false" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Classwork/Linked Lists.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="800">
@@ -690,28 +693,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Classwork/Linked Lists.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="56" column="19" lean-forward="false" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classwork/Queues.py" />
+    <entry file="file://$PROJECT_DIR$/Classwork/Node.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classwork/Stacks and Queues.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#487#0" expanded="false" />
+            <element signature="e#533#1419#0" expanded="false" />
+            <element signature="e#1466#2314#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Git_Upload/fa17-hw5-SahilModi/hw5_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1250">
-          <caret line="50" column="12" lean-forward="true" selection-start-line="50" selection-start-column="12" selection-end-line="51" selection-end-column="0" />
+        <state relative-caret-position="820">
+          <caret line="50" column="12" lean-forward="false" selection-start-line="50" selection-start-column="12" selection-end-line="51" selection-end-column="0" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classwork/Linked Lists.py">
+    <entry file="file://$PROJECT_DIR$/Homework/fa17-hw5-SahilModi/hw5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1304">
-          <caret line="56" column="19" lean-forward="false" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Git_Upload/fa17-hw5-SahilModi/hw5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1375">
-          <caret line="177" column="19" lean-forward="false" selection-start-line="177" selection-start-column="19" selection-end-line="177" selection-end-column="33" />
+        <state relative-caret-position="745">
+          <caret line="263" column="34" lean-forward="false" selection-start-line="263" selection-start-column="34" selection-end-line="263" selection-end-column="34" />
           <folding>
             <element signature="e#176#563#0" expanded="false" />
             <element signature="e#621#1163#0" expanded="false" />
@@ -725,30 +748,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classwork/Queues.py">
+    <entry file="file://$PROJECT_DIR$/Git_Upload/fa17-hw5-SahilModi/hw5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="49" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classwork/Node.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classwork/Stacks and Queues.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="112" column="0" lean-forward="true" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+        <state relative-caret-position="720">
+          <caret line="263" column="34" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="263" selection-end-column="34" />
           <folding>
-            <element signature="e#1466#2314#0" expanded="false" />
-            <marker date="1509496410310" expanded="false" signature="19:484" ph="..." />
-            <marker date="1509496410310" expanded="false" signature="528:1416" ph="..." />
+            <element signature="e#176#563#0" expanded="false" />
+            <element signature="e#621#1163#0" expanded="false" />
+            <element signature="e#1391#2288#0" expanded="false" />
+            <element signature="e#1391#1851#1" expanded="false" />
+            <element signature="e#2371#2704#0" expanded="false" />
+            <element signature="e#2801#3621#0" expanded="false" />
+            <element signature="e#2801#3160#1" expanded="false" />
+            <element signature="e#3672#4053#0" expanded="false" />
           </folding>
         </state>
       </provider>

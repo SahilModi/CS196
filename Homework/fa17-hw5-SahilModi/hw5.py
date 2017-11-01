@@ -243,7 +243,7 @@ def find_cycle(head):
     Output:
         (bool) whether or not there is a cycle in the linked list.
     """
-    if not head or not head.next_node:
+    if not head or not head.next_node or not head.next_node.next_node:
         return False
 
     node_a = head
