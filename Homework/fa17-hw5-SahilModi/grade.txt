@@ -1,0 +1,31 @@
+GRADE REPORT for repo fa17-hw5-SahilModi
+
+Total points earned: 22
+
+Detailed test results:
+tester_add_head/_given: Correct
+tester_add_head/in_place: Correct
+tester_add_head/longer: Correct
+tester_add_head/vacuous: Correct
+tester_add_position/_given: Correct
+tester_add_position/edges: Correct
+tester_add_position/in_place: Correct
+tester_add_position/vacuous: Correct
+tester_find_cycle/_given: Correct
+tester_find_cycle/long: Error
+tester_find_cycle/more: Correct
+tester_find_merge_point/_given: Failed
+tester_find_merge_point/more: Failed
+tester_is_merged/_given: Correct
+tester_is_merged/is_check: Correct
+tester_is_merged/more: Correct
+tester_is_merged/neq_length: Failed
+tester_list_sum/_given: Correct
+tester_list_sum/more: Correct
+tester_remove_head/_given: Correct
+tester_remove_head/in_place: Correct
+tester_remove_head/one: Correct
+tester_remove_head/vacuous: Correct
+tester_remove_position/_given: Correct
+tester_remove_position/in_place: Correct
+tester_remove_position/vacuous: Correct
