@@ -1,0 +1,108 @@
+Grade report for repo fa17-mts-SahilModi
+
+Total points earned: 60
+
+Detailed test results:
+
+tester_alive_people
+At least one test in this suite failed.
+    _given: Correct
+    disjoint: Correct
+    large: Failed
+    medium: Failed
+    more: Correct
+    overlap_all: Correct
+    overlap_just: Correct
+    overlap_multi: Correct
+
+tester_array_almost_product
+    _given: Correct
+    large: Correct
+    medium: Correct
+    more: Correct
+    no_div: Correct
+    zad: Correct
+
+tester_circular_shift
+    _given: Correct
+    large_arr: Correct
+    large_shift: Correct
+    more: Correct
+    vacuous: Correct
+
+tester_longest_palindrome_substring
+At least one test in this suite failed.
+    _given: Correct
+    large: Failed
+    more_1: Correct
+    more_2: Correct
+    overlap: Correct
+
+tester_longest_unique_substring
+At least one test in this suite failed.
+    _given: Correct
+    large: Correct
+    medium: Correct
+    mid_on: Failed
+    more: Correct
+    small: Correct
+
+tester_odd_one_out
+    _given: Correct
+    large: Correct
+    medium: Correct
+    more: Correct
+
+tester_pascals_triangle
+    _given: Correct
+    exhaust: Correct
+    large: Correct
+    small: Correct
+
+tester_reverse_list
+    in_place: Correct
+    large: Correct
+    more: Correct
+
+tester_staircase_ways
+At least one test in this suite failed.
+    _given: Correct
+    steps_huge_skip_medium: Exception
+    steps_huge_skip_small: Exception
+    steps_large_skip_large: Exception
+    steps_large_skip_medium: Exception
+    steps_large_skip_small: Exception
+    steps_medium_skip_large: Correct
+    steps_medium_skip_medium: Correct
+    steps_medium_skip_no: Correct
+    steps_medium_skip_small: Correct
+    steps_no: Correct
+    steps_small_skip_medium: Correct
+    steps_small_skip_no: Correct
+    steps_small_skip_small: Correct
+
+tester_string_my_one_true_love
+At least one test in this suite failed.
+    _given: Correct
+    large: Correct
+    medium: Correct
+    more: Failed
+    vacuous: Correct
+
+tester_three_sum
+At least one test in this suite failed.
+    _given: Correct
+    large: Correct
+    more: Failed
+    repeated: Correct
+    vacuous: Correct
+
+tester_zero_sum
+    _given: Correct
+    large: Correct
+    medium: Correct
+    more: Correct
+    not_slice: Correct
+    vacuous: Correct
+
+
